@@ -19,7 +19,14 @@
             
             {{-- Bouton Production --}}
             @include('bouton-production-accueil.button')
+
+            {{-- Bouton Comptabilité --}}
+            @include('bouton-comptabilite-accueil.button')
+
+            
         </div>
+
+            
         
         <div class="mt-auto py-3 sm:py-4">
             <p class="text-xs sm:text-sm text-gray-500 text-center">Système de gestion Sweetiz - Version 1.0</p>
