@@ -12,11 +12,13 @@
         
         <p class="text-sm sm:text-base md:text-lg text-gray-600 mb-8 sm:mb-10 md:mb-12 text-center px-4">Choisissez votre module de gestion</p>
         
+
         <div class="w-full max-w-sm sm:max-w-md md:max-w-lg space-y-3 sm:space-y-4 px-2 sm:px-0">
             {{-- Bouton Livraison --}}
             @include('bouton-livraison-accueil.button')
             
-            {{-- Les autres boutons seront ajoutés ici --}}
+            {{-- Bouton Production --}}
+            @include('bouton-production-accueil.button')
         </div>
         
         <div class="mt-auto py-3 sm:py-4">
